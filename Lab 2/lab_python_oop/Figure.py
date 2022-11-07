@@ -10,7 +10,7 @@ class Figure(ABC):
     def prdecorator(self):
         print("Сейчас буду запускать функцию pr")
         pr()
-        print("ыполнил фунцкию pr ")
+        print("Выполнил фунцкию pr ")
 
     @abstractmethod
     def square(self):
